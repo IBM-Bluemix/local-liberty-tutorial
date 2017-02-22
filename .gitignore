@@ -1,5 +1,9 @@
-target
+target/*
 .settings
 .classpath
 .factorypath
 .project
+
+# Don't exclude these.
+!target/local-liberty-tutorial.war
+
